@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pem -text
+*.jar -text
+*.png -text
+*.jpg -text
+gradlew text eol=lf
+*.bat text eol=crlf

@@ -1,0 +1,14 @@
+{
+  "BouncyCastle": "1.86",
+  "artifacts": {
+    "bcprov-jdk15to18-1.86.jar": "fc50334d4d87b4272e72fa95ca748ead05bdef02ef760a5b13f64ffee317cd81",
+    "bctls-jdk15to18-1.86.jar": "c0dbcd24ceeb78a263661a38d243a3c82620f002a41f49c5399a9635764a963a",
+    "bcutil-jdk15to18-1.86.jar": "e72ef8a0fcad295207529b268ee02eb72acc7c83ec2e3a9df90cbed9380e3990"
+  },
+  "source": "https://www.bouncycastle.org/download/bouncy-castle-java/",
+  "license": "https://www.bouncycastle.org/licence.html",
+  "relocated_artifact": {
+    "on-lite-crypto-1.86.jar": "9b600bbefd53a8462d19e831182041640ce9ecbe0ff6fc7cc55ddff572fd2b01"
+  },
+  "namespace": "com.oldschoolnetwork.lite.crypto"
+}

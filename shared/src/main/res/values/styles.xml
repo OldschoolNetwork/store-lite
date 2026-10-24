@@ -1,0 +1,4 @@
+<resources>
+ <style name="LiteTheme" parent="android:style/Theme.Light.NoTitleBar"><item name="android:windowBackground">@color/lite_background</item><item name="android:colorBackground">@color/lite_background</item></style>
+ <style name="LiteButton"><item name="android:layout_width">fill_parent</item><item name="android:layout_height">46dp</item><item name="android:layout_marginTop">8dp</item><item name="android:textColor">#FFFFFF</item><item name="android:textSize">15sp</item><item name="android:background">@drawable/lite_button</item><item name="android:padding">8dp</item></style>
+</resources>

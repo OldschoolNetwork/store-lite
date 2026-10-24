@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp" android:background="#F2F2F2">
+ <TextView android:id="@+id/transfer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textColor="#55436E" android:textStyle="bold"/>
+ <TextView android:id="@+id/transfer_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textColor="#333333"/>
+ <ProgressBar android:id="@+id/transfer_progress" style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent" android:layout_height="12dp" android:layout_marginTop="6dp"/>
+</LinearLayout>

@@ -1,0 +1,1 @@
+Keep the declared minimum Android version. English product text. Never commit credentials or signing keys. Lite releases are independent and must not be published automatically with regular ON releases.
