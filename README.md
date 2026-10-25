@@ -1,8 +1,24 @@
+<p align="center">
+  <img src="docs/branding/app-icon.png" width="96" alt="Application icon">
+</p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/branding/oldschool-network-dark.svg">
+    <img src="docs/branding/oldschool-network-light.svg" width="200" alt="Oldschool Network">
+  </picture>
+</p>
+
 # ON Store Lite
 
 A lightweight native application catalogue for classic Android. Includes Apps and Games, search history and suggestions, category filters, acquired library, favourites, reviews, reactions, reports and verified downloads.
 
 Current alpha: **0.2**, version code **2**. Android **2.2 / API 8** or later. Intended for legacy devices; use the regular ON editions on current Android.
+
+## Screenshots
+
+<p>
+  <img src="docs/screenshots/application.png" width="240" alt="Application details on Android 2.2">
+</p>
 
 ## Design and compatibility
 
@@ -26,6 +42,9 @@ The shared module is embedded in `shared/` in this repository. In the multi-proj
 Lite releases are scheduled independently. Regular Core, Store and Installer updates do not rebuild or publish Lite packages automatically.
 
 ## Current limits
+
+On Android 2.2, some application detail pages can close unexpectedly because of a compatibility issue. The catalogue also requires the Lite server API to be deployed.
+
 
 Early alpha. No complete offline catalogue or full background automatic-update parity with regular ON apps. Store Lite requires server build-0011. Testing includes Android 2.2 ARM with 128 MB memory; physical devices and ROM-specific behaviour need further verification.
 
